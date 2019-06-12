@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
 
@@ -38,8 +38,17 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Portefolio</a>
+           <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link  dropdown-toggle js-scroll-trigger" href="#" id="navbardrop" data-toggle="dropdown">
+              Portefolio
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#webdev">Web Developpement</a>
+              <a class="dropdown-item" href="#elec">Electronic</a>
+              <a class="dropdown-item" href="#beat">Beatmaking</a>
+              <a class="dropdown-item" href="#sport">Sport</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
@@ -73,25 +82,25 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects-section bg-light">
+  <!-- Portefolio Section -->
+  <section  class="projects-section bg-light">
     <div class="container">
 
-      <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+      <!-- Portefolio Zero Row -->
+      <div  id="webdev" class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/ordi.jpg" alt="">
+          <img  class="img-fluid mb-3 mb-lg-0"  src="img/ordi.jpg" alt="" >
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>WEB DEVELOPPEMENT</h4>
+            <h4 class="text-white"><a href="pagewebdev.html">WEB DEVELOPMENT</a></h4>
             <p class="text-black-50 mb-0">I create and design websites </p>
           </div>
         </div>
       </div>
 
-      <!-- Project One Row -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <!-- Portefolio One Row -->
+      <div id="elec" class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
           <img class="img-fluid" src="img/electronic.jpg" alt="">
         </div>
@@ -99,8 +108,8 @@
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">ELECTRONIC TECHNICIAN</h4>
-                <p class="mb-0 text-white-50">Desingnin and Mapping electronic's circuit on cards, programming repairing electronic cards and scales</p>
+                <h4 class="text-white"><a href="pageelec.html">ELECTRONIC TECHNICIAN</a></h4>
+                <p class="mb-0 text-white-50">Designin and Mapping electronic's circuit on cards, programming repairing electronic cards and scales</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -108,8 +117,8 @@
         </div>
       </div>
 
-      <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
+      <!-- Portefolio Two Row -->
+      <div id="beat" class="row justify-content-center no-gutters">
         <div class="col-lg-6">
           <img class="img-fluid" src="img/music-wallpaper.jpg" alt="">
         </div>
@@ -117,7 +126,7 @@
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">BEATMAKING</h4>
+                <h4 class="text-white"><a href="pagebeatmaking.html">BEATMAKING</a></h4>
                 <p class="mb-0 text-white-50">Producing mixing and mastering news songs or remixing</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
@@ -126,8 +135,8 @@
         </div>
       </div>
 
-      <!-- Project Three Row -->
-     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <!-- Portefolio Three Row -->
+     <div id="sport" class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
            <img class="img-fluid" src="img/sprint.jpg" alt="">
         </div>
@@ -135,7 +144,7 @@
            <div class="bg-black text-center h-100 project">
              <div class="d-flex h-100">
                <div class="project-text w-100 my-auto text-center text-lg-left">
-                     <h4 class="text-white">ATHLETE</h4>
+                     <h4 class="text-white"><a href="pagesport.html">SPORT</a></h4>
                      <p class="mb-0 text-white-50">Fitness, musculation ,athletisme an us football soon ...</p>
                      <hr class="d-none d-lg-block mb-0 ml-0">
                </div>
